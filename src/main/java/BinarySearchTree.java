@@ -120,6 +120,8 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 
 
     }
+   
+    /* This methods display Binary Search Tree elments in sorted order */
     public void display(BinarySearchTree<T> bst){
         inOrderDisplay(bst.root);
     }
