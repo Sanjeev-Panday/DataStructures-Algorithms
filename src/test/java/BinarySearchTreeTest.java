@@ -32,7 +32,7 @@ public class BinarySearchTreeTest extends TestCase {
     public void testSuccessorForLeaf() {
         Integer successor = bst.successor(7);
         int val = successor.intValue();
-        assertEquals(8,val);
+        assertEquals(9,val);
     }
     @Test
     public void testInsert(){
