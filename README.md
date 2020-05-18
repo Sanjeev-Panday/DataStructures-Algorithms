@@ -1,3 +1,4 @@
+![](https://github.com/Sanjeev-Panday/DataStructures/.github/workflows/maven.yml/badge.svg)
 # DataStructures
 Data Structures
 Java Implementation of following data structurs 
