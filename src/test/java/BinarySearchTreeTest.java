@@ -20,7 +20,7 @@ public class BinarySearchTreeTest extends TestCase {
     }
     @Test
     public void testSize() {
-        assertEquals(9,bst.size());
+        assertEquals(8,bst.size());
     }
     @Test
     public void testSuccessorWithRightChild() {
