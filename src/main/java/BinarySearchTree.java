@@ -38,6 +38,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 
     }
 
+    /** Find an element in the binary search tree */
     public boolean find(T element){
         Node<T> current = root;
         while(current != null) {
