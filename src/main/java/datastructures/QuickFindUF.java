@@ -5,10 +5,10 @@ import datastructures.adt.UnionFind;
 public class QuickFindUF implements UnionFind {
     private int[] id;
     private int count;
-    private int N;
+
     // Initialize the array with index values, each value forms its own set.
     public QuickFindUF(int N) {
-        this.N = N;
+        id = new int[N];
         for(int i = 0;i < N; i++) {
             id[i] = i;
         }
@@ -17,13 +17,13 @@ public class QuickFindUF implements UnionFind {
     }
 
     @Override
-    public void union(int p, int q) {
+    public void union(int p, int q) { // O(n)
         // If p  , q are not connect , merge these two
         if(!isConnected(p,q)) {
             int a = find(p); // component to which p belongs to
             int b = find(q); // component to which q belongs to
             // update all the indexes with value a to b
-            for (int i = 0; i < N; i++) {
+            for (int i = 0; i < id.length; i++) {
                 if(id[i] == a) id[i] = b;
             }
             count--;
