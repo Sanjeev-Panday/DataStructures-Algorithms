@@ -1,3 +1,6 @@
+package datastructures;
+
+import datastructures.BinarySearchTree;
 import junit.framework.TestCase;
 import org.junit.Test;
 
@@ -20,7 +23,7 @@ public class BinarySearchTreeTest extends TestCase {
     }
     @Test
     public void testSize() {
-        assertEquals(8,bst.size());
+        assertEquals(9,bst.size());
     }
     @Test
     public void testSuccessorWithRightChild() {
@@ -32,7 +35,7 @@ public class BinarySearchTreeTest extends TestCase {
     public void testSuccessorForLeaf() {
         Integer successor = bst.successor(7);
         int val = successor.intValue();
-        assertEquals(9,val);
+        assertEquals(8,val);
     }
     @Test
     public void testInsert(){

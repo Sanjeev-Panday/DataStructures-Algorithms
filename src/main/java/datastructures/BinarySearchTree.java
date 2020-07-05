@@ -1,3 +1,5 @@
+package datastructures;
+
 public class BinarySearchTree<T extends Comparable<? super T>> {
     private static class Node<T> {
         T element;
@@ -6,6 +8,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
         Node<T> parent;
     }
     private Node<T> root;
+    // Size of the binary search tree
     private int size;
     public void insert(T element){
         final Node<T> newNode = new Node<>();
