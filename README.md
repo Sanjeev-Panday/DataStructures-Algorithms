@@ -4,3 +4,6 @@ Data Structures
 Java Implementations of following -
 1. Doubly Linked List
 2. Binary Search Tree
+3. Union - Disjoint set.
+# Algorithms
+1. QuickFind
