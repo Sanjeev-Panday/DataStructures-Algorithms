@@ -20,8 +20,8 @@ public class QuickFindUF implements UnionFind {
     public void union(int p, int q) { // O(n)
         // If p  , q are not connect , merge these two
         if(!isConnected(p,q)) {
-            int a = find(p); // component to which p belongs to
-            int b = find(q); // component to which q belongs to
+            int a = root(p); // component to which p belongs to
+            int b = root(q); // component to which q belongs to
             // update all the indexes with value a to b
             for (int i = 0; i < id.length; i++) {
                 if(id[i] == a) id[i] = b;
@@ -41,7 +41,7 @@ public class QuickFindUF implements UnionFind {
      * @return
      */
     @Override
-    public int find(int p) { // Very fast - O(1) - constant time.
+    public int root(int p) { // Very fast - O(1) - constant time.
         return id[p];
     }
 
