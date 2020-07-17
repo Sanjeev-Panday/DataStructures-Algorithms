@@ -7,4 +7,9 @@ Java Implementations of following -
 #### UnionFind - Disjoint set.
 > 1. Quick Find
 > 1. Quick Union
+> 1. Weighted Quick Union
+### Algorithms 
+##### Based on UnionFind DataStructure. 
+> - Percolation
+
 
