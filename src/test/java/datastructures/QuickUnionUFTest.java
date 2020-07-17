@@ -1,5 +1,4 @@
 package datastructures;
-import datastructures.adt.QuickUnionUF;
 import datastructures.adt.UnionFind;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,10 +1,12 @@
-package datastructures.adt;
+package datastructures;
+
+import datastructures.adt.UnionFind;
 
 /**
  * Quick Union implementation of Union find ADT
  * This is a lazy algorithm which in which union operation is optimized
  */
-public class QuickUnionUF implements UnionFind{
+public class QuickUnionUF implements UnionFind {
     private int[] id;
     private int N;
     private int count;
