@@ -8,6 +8,8 @@ Java Implementations of following -
 > 1. Quick Find
 > 1. Quick Union
 > 1. Weighted Quick Union
+#### Stack
+> - Using Linked List
 ### Algorithms 
 ##### Based on UnionFind DataStructure. 
 > - Percolation
