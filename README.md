@@ -17,5 +17,8 @@ Java Implementations of following
   * Triplets Red Black Tree
 * Based on Stack
   * Queue using two stacks
+* Sorting
+  * Selection
+  * Insertion
 
 
