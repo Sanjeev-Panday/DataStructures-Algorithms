@@ -15,7 +15,7 @@ public class SelectionTest {
     public void testSortInteger() {
         Integer[] arr = new Integer[]{3,5,6,9,1,2,10};
         Selection.sort(arr);
-        Assert.assertTrue(isSorted(arr));
+        Assert.assertTrue(isSorted(arr,0,arr.length-1));
     }
 
 }

@@ -16,7 +16,7 @@ public class InsertionTest {
     public void testSortInteger() {
         Integer[] arr = new Integer[]{3,5,6,9,1,2,10};
         Insertion.sort(arr);
-        Assert.assertTrue(isSorted(arr));
+        Assert.assertTrue(isSorted(arr,0,arr.length-1));
     }
 
 }

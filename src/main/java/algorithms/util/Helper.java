@@ -9,10 +9,14 @@ public class Helper {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-    public static boolean isSorted(Comparable [] arr) {
-        for(int i = 0; i < arr.length-1; i++) {
+    public static boolean isSorted(Comparable [] arr,int lo, int hi) {
+        for(int i = lo; i < hi; i++) {
             if(!isLess(arr[i],arr[i+1])) return false;
         }
         return true;
+    }
+    public static void copy(Comparable[] source, Comparable[] target) {
+        assert target.length >= source.length;
+        System.arraycopy(source,0,target,0,source.length);
     }
 }

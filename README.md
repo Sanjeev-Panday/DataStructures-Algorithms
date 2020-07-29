@@ -18,7 +18,8 @@ Java Implementations of following
 * Based on Stack
   * Queue using two stacks
 * Sorting
-  * Selection
-  * Insertion
-
+  * Selection sort
+  * Insertion sort
+  * Merge sort
+  * Shell sort
 
