@@ -22,4 +22,8 @@ Java Implementations of following
   * Insertion sort
   * Merge sort
   * Shell sort
+* Shuffle 
+  * This is shuffle implementation generates a random permutation of the given array.
+  * One of the use-case of this shuffle algorithm is in Quick sort to get good performance. 
+
 
