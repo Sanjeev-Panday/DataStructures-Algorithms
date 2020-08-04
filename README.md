@@ -27,6 +27,7 @@ Java Implementations of following
   * One of the use-case of this shuffle algorithm is in Quick sort to get good performance. 
 
 ## Math implementations
+* GCD - Greatest Common Divisor 
 * isPrime - Recursive and Iterative
 * decimal to binary conversion - recursive
 
