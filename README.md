@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/Sanjeev-Panday/DataStructures-Algorithms.svg?branch=master)](https://travis-ci.com/Sanjeev-Panday/DataStructures-Algorithms)
+[![codecov](https://codecov.io/gh/Sanjeev-Panday/DataStructures-Algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/Sanjeev-Panday/DataStructures-Algorithms)
 ## DataStructures
 Java Implementations of following
 * Doubly Linked List
