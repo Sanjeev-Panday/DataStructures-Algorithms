@@ -1,5 +1,4 @@
-![Java CI with Maven](https://github.com/Sanjeev-Panday/DataStructures/workflows/Java%20CI%20with%20Maven/badge.svg)
-
+[![Build Status](https://travis-ci.com/Sanjeev-Panday/DataStructures-Algorithms.svg?branch=master)](https://travis-ci.com/Sanjeev-Panday/DataStructures-Algorithms)
 ## DataStructures
 Java Implementations of following
 * Doubly Linked List
