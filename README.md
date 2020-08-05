@@ -26,8 +26,16 @@ Java Implementations of following
   * This is shuffle implementation generates a random permutation of the given array.
   * One of the use-case of this shuffle algorithm is in Quick sort to get good performance. 
 
-## Math implementations
-* GCD - Greatest Common Divisor 
-* isPrime - Recursive and Iterative
-* decimal to binary conversion - recursive
+<h3>Math implementations</h3>
+<ul>
+    <li>GCD - Greatest Common Divisor</li> 
+    <li>isPrime - Recursive and Iterative</li>
+    <li>decimal to binary conversion - recursive</li>
+</ul>
 
+
+<h3> String Utility Implementations</h3>
+<ul>
+    <li>Reverse a string : Recursive</li>
+    <li>Remove duplicates : Recursive</li>
+</ul>
