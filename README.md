@@ -31,6 +31,7 @@ Java Implementations of following
     <li>GCD - Greatest Common Divisor</li> 
     <li>isPrime - Recursive and Iterative</li>
     <li>decimal to binary conversion - recursive</li>
+    <li>LCM - Least Common Multiplier</li>
 </ul>
 
 

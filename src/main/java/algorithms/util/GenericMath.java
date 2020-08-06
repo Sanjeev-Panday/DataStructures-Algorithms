@@ -1,7 +1,5 @@
 package algorithms.util;
 
-import java.util.Optional;
-
 public class GenericMath {
     public static int gcd(int num1,int num2) {
         if(num1 > num2)
@@ -15,6 +13,18 @@ public class GenericMath {
             return num2;
         }
         return findGcd(num2, num1 % num2);
+    }
+
+    /**
+     * formula used is num1 * num2 = LCM(num1, num2) * GCD(num1, num2)
+     * LCM(num1, num2) = (num1 * num2) / GCD(num1, num2)
+     * @param num Integer
+     * @param num2 Integer
+     * @return Integer
+     */
+    public static int lcm(int num1, int num2) {
+        assert num1 > 0 && num2 > 0;
+        return (num1 * num2) / gcd(num1, num2);
     }
     public static boolean isPrime(int num) {
         if(num < 2) return false;
